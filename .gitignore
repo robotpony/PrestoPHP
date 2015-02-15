@@ -1,0 +1,5 @@
+codekit-config.json
+*.esproj
+.DS_Store
+composer\.lock
+/vendor/
