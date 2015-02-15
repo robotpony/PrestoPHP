@@ -2,33 +2,18 @@
 
 namespace NapkinWare\PrestoPHP;
 
-/*
-	$github = new Service(
-		'Github',
-		'https://api.github.com/'
-	);
-
-	print_r( $github->get('/orgs/:org/repos') );
-
-	$github = new Service(
-		'Github',
-		'https://api.github.com/'
-	);
-
-	print_r( $github->get('/orgs/:org/repos') );
-	print_r( $github->get('/orgs/:org/repos') );
-	print_r( $github->get('/orgs/:org/repos') );
-
-
-
- */
+/* Service (to service) library */
 
 class Service {
 	private $service;
 	private $url;
 	private $credentials;
 
-	public function __construct($service, $url) {
+	public function __construct($service, $url, $routes = array() ) {
+
+	}
+
+	public function routes($routes = null) {
 
 	}
 
